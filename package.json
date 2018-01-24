@@ -1,0 +1,19 @@
+{
+  "name": "node-sass-starter",
+  "version": "1.0.0",
+  "description": "A scss starter based on node-sass",
+  "keywords": [
+    "sass",
+    "css"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^7.1.5",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mdmengo",
+  "license": "MIT"
+}

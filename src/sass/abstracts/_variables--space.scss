@@ -1,0 +1,47 @@
+// Nathan Curtis' Spacing system
+
+// Base number 16
+// Design system scale 2, 4, 8, 16, 32, 64
+
+// Name of steps
+// m (default), xs, s, l, xl
+
+// $space-inset-default: 16px 16px 16px 16px;
+// $space-inset-xs: 4px 4px 4px 4px;
+// $space-inset-s: 8px 8px 8px 8px;
+// $space-inset-m: 16px 16px 16px 16px;
+// $space-inset-l: 32px 32px 32px 32px;
+// $space-inset-xl: 64px 64px 64px 64px;
+// $space-stack-default: 0 0 16px 0;
+// $space-stack-xs: 0 0 4px 0;
+// $space-stack-s: 0 0 8px 0;
+// $space-stack-m: 0 0 16px 0;
+// $space-stack-l: 0 0 32px 0;
+// $space-stack-xl: 0 0 64px 0;
+// $space-default: 16px;
+// $space-xs: 4px;
+// $space-s: 8px;
+// $space-m: 16px;
+// $space-l: 32px;
+// $space-xl: 64px;
+
+$space-inset-default: 1rem 1rem 1rem 1rem;
+$space-inset-xs: .25rem .25rem .25rem .25rem;
+$space-inset-s: .5rem .5rem .5rem .5rem;
+$space-inset-m: 1rem 1rem 1rem 1rem;
+$space-inset-l: 2rem 2rem 2rem 2rem;
+$space-inset-xl: 4rem 4rem 4rem 4rem;
+$space-stack-default: 0 0 1rem 0;
+$space-stack-xs: 0 0 .25rem 0;
+$space-stack-s: 0 0 .5rem 0;
+$space-stack-m: 0 0 1rem 0;
+$space-stack-l: 0 0 2rem 0;
+$space-stack-xl: 0 0 4rem 0;
+$space-default: 1rem;
+$space-xs: .25rem;
+$space-s: .5rem;
+$space-m: 1rem;
+$space-l: 2rem;
+$space-xl: 3rem;
+
+$spaceless: 0 !important;
