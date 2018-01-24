@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "css-build": "node-sass src/sass/main.scss src/css/main.css --include-paths ['node_modules/'] --source-map true --output-style expanded",
     "css-watch": "npm run css-build -- --watch",
-    "css-postcss": "postcss --use autoprefixer --output src/css/main.css src/css/main.css"
+    "css-postcss": "postcss --use autoprefixer --output src/css/main.css build/css/main.css"
   },
   "author": "mdmengo",
   "license": "MIT"
