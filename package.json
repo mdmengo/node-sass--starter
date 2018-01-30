@@ -8,14 +8,17 @@
   ],
   "devDependencies": {
     "autoprefixer": "^7.1.5",
+    "cssnano": "^3.10.0",
     "node-sass": "^4.5.3",
+    "postcss": "^6.0.16",
     "postcss-cli": "^4.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css-build": "node-sass src/sass/main.scss src/css/main.css --include-paths ['node_modules/'] --source-map true --output-style expanded",
     "css-watch": "npm run css-build -- --watch",
-    "css-postcss": "postcss --use autoprefixer --output src/css/main.css build/css/main.css"
+    "build": "postcss --use autoprefixer -b 'last 2 versions' < src/css/main.css | postcss --use cssnano > src/css/styles.min.css",
+    "prefix": "postcss src/css/main.css --use autoprefixer -o build/css/main.min.css"
   },
   "author": "mdmengo",
   "license": "MIT"
