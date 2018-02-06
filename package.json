@@ -8,6 +8,7 @@
   ],
   "devDependencies": {
     "autoprefixer": "^7.1.5",
+    "bemify": "^0.1.2",
     "cssnano": "^3.10.0",
     "node-sass": "^4.5.3",
     "postcss": "^6.0.16",
@@ -20,5 +21,6 @@
     "prefix": "postcss src/css/main.css --use autoprefixer -o build/css/main.min.css"
   },
   "author": "mdmengo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
