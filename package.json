@@ -2,10 +2,6 @@
   "name": "node-sass-starter",
   "version": "1.0.0",
   "description": "A scss starter based on node-sass",
-  "keywords": [
-    "sass",
-    "css"
-  ],
   "devDependencies": {
     "autoprefixer": "^7.1.5",
     "bemify": "^0.1.2",
@@ -15,12 +11,10 @@
     "postcss-cli": "^4.1.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "css-build": "node-sass src/sass/main.scss src/css/main.css --include-paths ['node_modules/'] --source-map true --output-style expanded",
     "css-watch": "npm run css-build -- --watch",
     "prefix": "postcss src/css/main.css --use autoprefixer -o build/css/main.min.css"
   },
   "author": "mdmengo",
-  "license": "MIT",
-  "dependencies": {}
+  "license": "MIT"
 }
