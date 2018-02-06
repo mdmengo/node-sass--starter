@@ -16,5 +16,8 @@
     "prefix": "postcss src/css/main.css --use autoprefixer -o build/css/main.min.css"
   },
   "author": "mdmengo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
 }

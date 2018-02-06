@@ -11,12 +11,13 @@
 
 // 2. Vendors
 @import
+  'node_modules/normalize.css/normalize',
   'node_modules/bemify/sass/_bemify';
 
 
 // 3. Base stuff
 @import
-  'base/normalize',
+  // 'base/normalize',
   'base/base',
   'base/fonts',
   'base/typography',
