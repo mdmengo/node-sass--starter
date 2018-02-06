@@ -5,10 +5,14 @@
 /**
  * Clear inner floats
  */
-.clearfix::after {
-  clear: both;
-  content: '';
-  display: table;
+// .clearfix::after {
+//   clear: both;
+//   content: '';
+//   display: table;
+// }
+
+.clearfix {
+  @include clearfix;
 }
 
 /**
