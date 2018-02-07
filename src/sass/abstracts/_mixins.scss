@@ -4,10 +4,12 @@
 
 // Clearfix mixin
 @mixin clearfix {
-  &:before, &:after {
-    content: " ";
+  &:before,
+  &:after {
+    content: ' ';
     display: table;
   }
+
   &:after {
     clear: both;
   }
@@ -85,9 +87,9 @@
 // https://codepen.io/xavez/pen/KvYMdg
 @mixin text-color($c1) {
   @if (.2126*red($c1) + .7152*green($c1) + .0722*blue($c1))/255 <= .5 {
-      color: #fff;
+    color: #fff;
   } @else {
-      color: #000;
+    color: #000;
   }
 }
 
@@ -104,9 +106,9 @@
 ///     margin-right: auto;
 ///   }
 @mixin center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /// Horizontally and vertically centers block elements
@@ -126,10 +128,10 @@
 ///     transform: translate(-50%, -50%);
 ///   }
 @mixin center-both {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    @include prefix(transform, translate(-50%, -50%), 'webkit' 'ms');
+  @include prefix(transform, translate(-50%, -50%), 'webkit' 'ms');
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 /// Vertically centers block elements with known height.
@@ -147,10 +149,10 @@
 ///     margin-top: -21px;
 ///   }
 @mixin center-h($height) {
-    position: absolute;
-    top: 50%;
-    height: $height;
-    margin-top: -($height / 2);
+  position: absolute;
+  top: 50%;
+  height: $height;
+  margin-top: -($height / 2);
 }
 
 /// Vertically centers block elements with unknown height.
@@ -168,9 +170,9 @@
 ///     transform: translateY(-50%);
 ///   }
 @mixin center-h--unk {
-    position: relative;
-    top: 50%;
-    @include prefix(transform, translateY(-50%), 'webkit' 'ms');
+  @include prefix(transform, translateY(-50%), 'webkit' 'ms');
+  position: relative;
+  top: 50%;
 }
 
 // Position mixins
