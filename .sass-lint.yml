@@ -15,7 +15,6 @@ files:
   ignore:
     - "node_modules/**/*.s+(a|c)ss"
     - "src/sass/vendor/**/*.s+(a|c)ss"
-    - "src/sass/base/_normalize.s+(a|c)ss"
     - "src/sass/abstracts/_mq.s+(a|c)ss"
 options:
   formatter: stylish
