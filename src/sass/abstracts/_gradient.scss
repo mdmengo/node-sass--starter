@@ -1,184 +1,184 @@
 // cool hue gradient mixin
-// Coolest handpicked Gradient Hues for your next super amazing stuff
+// coolest handpicked gradient hues for your next super amazing stuff
 // forked from https://github.com/webkul/coolhue
 
 @mixin grad--school-bus-yellow {
-  background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
+  background-image: linear-gradient(135deg, #fdeb71 10%, #f8d800 100%);
 }
 @mixin grad--azure-radiance {
-  background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
+  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
 }
 @mixin grad--mandy {
-  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
+  background-image: linear-gradient(135deg, #feb692 10%, #ea5455 100%);
 }
 @mixin grad--cornflower-blue {
-  background-image: linear-gradient(135deg, #CE9FFC 10%, #7367F0 100%);
+  background-image: linear-gradient(135deg, #ce9ffc 10%, #7367f0 100%);
 }
 @mixin grad--turquoise {
-  background-image: linear-gradient(135deg, #90F7EC 10%, #32CCBC 100%);
+  background-image: linear-gradient(135deg, #90f7ec 10%, #32ccbc 100%);
 }
 @mixin grad--violet-red {
-  background-image: linear-gradient(135deg, #FFF6B7 10%, #F6416C 100%);
+  background-image: linear-gradient(135deg, #fff6b7 10%, #f6416c 100%);
 }
 @mixin grad--jungle-green {
-  background-image: linear-gradient(135deg, #81FBB8 10%, #28C76F 100%);
+  background-image: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
 }
 @mixin grad--amethyst {
-  background-image: linear-gradient(135deg, #E2B0FF 10%, #9F44D3 100%);
+  background-image: linear-gradient(135deg, #e2b0ff 10%, #9f44d3 100%);
 }
 @mixin grad--royal-purple {
-  background-image: linear-gradient(135deg, #F97794 10%, #623AA2 100%);
+  background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%);
 }
 @mixin grad--carnation {
-  background-image: linear-gradient(135deg, #FCCF31 10%, #F55555 100%);
+  background-image: linear-gradient(135deg, #fccf31 10%, #f55555 100%);
 }
 @mixin grad--seance {
-  background-image: linear-gradient(135deg, #F761A1 10%, #8C1BAB 100%);
+  background-image: linear-gradient(135deg, #f761a1 10%, #8c1bab 100%);
 }
 @mixin grad--electric-violet {
-  background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+  background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
 }
 @mixin grad--aquamarine {
-  background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%);
+  background-image: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
 }
 @mixin grad--sunglo {
-  background-image: linear-gradient(135deg, #FAD7A1 10%, #E96D71 100%);
+  background-image: linear-gradient(135deg, #fad7a1 10%, #e96d71 100%);
 }
 @mixin grad--dodger-blue {
-  background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
+  background-image: linear-gradient(135deg, #ffd26f 10%, #3677ff 100%);
 }
 @mixin grad--rose {
-  background-image: linear-gradient(135deg, #A0FE65 10%, #FA016D 100%);
+  background-image: linear-gradient(135deg, #a0fe65 10%, #fa016d 100%);
 }
 @mixin grad--arapawa {
-  background-image: linear-gradient(135deg, #FFDB01 10%, #0E197D 100%);
+  background-image: linear-gradient(135deg, #ffdb01 10%, #0e197d 100%);
 }
 @mixin grad--tia-maria {
-  background-image: linear-gradient(135deg, #FEC163 10%, #DE4313 100%);
+  background-image: linear-gradient(135deg, #fec163 10%, #de4313 100%);
 }
 @mixin grad--midnight-blue {
-  background-image: linear-gradient(135deg, #92FFC0 10%, #002661 100%);
+  background-image: linear-gradient(135deg, #92ffc0 10%, #002661 100%);
 }
 @mixin grad--purple-heart {
-  background-image: linear-gradient(135deg, #EEAD92 10%, #6018DC 100%);
+  background-image: linear-gradient(135deg, #eead92 10%, #6018dc 100%);
 }
 @mixin grad--orchid {
-  background-image: linear-gradient(135deg, #F6CEEC 10%, #D939CD 100%);
+  background-image: linear-gradient(135deg, #f6ceec 10%, #d939cd 100%);
 }
 @mixin grad--ultramarine {
-  background-image: linear-gradient(135deg, #52E5E7 10%, #130CB7 100%);
+  background-image: linear-gradient(135deg, #52e5e7 10%, #130cb7 100%);
 }
 @mixin grad--fuchsia-blue {
-  background-image: linear-gradient(135deg, #F1CA74 10%, #A64DB6 100%);
+  background-image: linear-gradient(135deg, #f1ca74 10%, #a64db6 100%);
 }
 @mixin grad--persian-blue {
-  background-image: linear-gradient(135deg, #E8D07A 10%, #5312D6 100%);
+  background-image: linear-gradient(135deg, #e8d07a 10%, #5312d6 100%);
 }
 @mixin grad--ripe-lemon {
-  background-image: linear-gradient(135deg, #EECE13 10%, #B210FF 100%);
+  background-image: linear-gradient(135deg, #eece13 10%, #b210ff 100%);
 }
 @mixin grad--tory-blue {
-  background-image: linear-gradient(135deg, #79F1A4 10%, #0E5CAD 100%);
+  background-image: linear-gradient(135deg, #79f1a4 10%, #0e5cad 100%);
 }
 @mixin grad--red {
-  background-image: linear-gradient(135deg, #FDD819 10%, #E80505 100%);
+  background-image: linear-gradient(135deg, #fdd819 10%, #e80505 100%);
 }
 @mixin grad--buttermilk {
-  background-image: linear-gradient(135deg, #FFF3B0 10%, #CA26FF 100%);
+  background-image: linear-gradient(135deg, #fff3b0 10%, #ca26ff 100%);
 }
 @mixin grad--affair {
-  background-image: linear-gradient(135deg, #FFF5C3 10%, #9452A5 100%);
+  background-image: linear-gradient(135deg, #fff5c3 10%, #9452a5 100%);
 }
 @mixin grad--violet {
-  background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
+  background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%);
 }
 @mixin grad--bright-turquoise {
-  background-image: linear-gradient(135deg, #2AFADF 10%, #4C83FF 100%);
+  background-image: linear-gradient(135deg, #2afadf 10%, #4c83ff 100%);
 }
 @mixin grad--persian-pink {
-  background-image: linear-gradient(135deg, #FFF886 10%, #F072B6 100%);
+  background-image: linear-gradient(135deg, #fff886 10%, #f072b6 100%);
 }
 @mixin grad--torea-bay {
-  background-image: linear-gradient(135deg, #97ABFF 10%, #123597 100%);
+  background-image: linear-gradient(135deg, #97abff 10%, #123597 100%);
 }
 @mixin grad--fuchsia-pink {
-  background-image: linear-gradient(135deg, #F5CBFF 10%, #C346C2 100%);
+  background-image: linear-gradient(135deg, #f5cbff 10%, #c346c2 100%);
 }
 @mixin grad--harlequin {
-  background-image: linear-gradient(135deg, #FFF720 10%, #3CD500 100%);
+  background-image: linear-gradient(135deg, #fff720 10%, #3cd500 100%);
 }
 @mixin grad--hot-pink {
-  background-image: linear-gradient(135deg, #FF6FD8 10%, #3813C2 100%);
+  background-image: linear-gradient(135deg, #ff6fd8 10%, #3813c2 100%);
 }
 @mixin grad--lavander-magenta {
-  background-image: linear-gradient(135deg, #EE9AE5 10%, #5961F9 100%);
+  background-image: linear-gradient(135deg, #ee9ae5 10%, #5961f9 100%);
 }
 @mixin grad--brink-pink {
-  background-image: linear-gradient(135deg, #FFD3A5 10%, #FD6585 100%);
+  background-image: linear-gradient(135deg, #ffd3a5 10%, #fd6585 100%);
 }
 @mixin grad--aero-blue {
-  background-image: linear-gradient(135deg, #C2FFD8 10%, #465EFB 100%);
+  background-image: linear-gradient(135deg, #c2ffd8 10%, #465efb 100%);
 }
 @mixin grad--egyptian-blue {
-  background-image: linear-gradient(135deg, #FD6585 10%, #0D25B9 100%);
+  background-image: linear-gradient(135deg, #fd6585 10%, #0d25b9 100%);
 }
 @mixin grad--supernova {
-  background-image: linear-gradient(135deg, #FD6E6A 10%, #FFC600 100%);
+  background-image: linear-gradient(135deg, #fd6e6a 10%, #ffc600 100%);
 }
 @mixin grad--matisse {
-  background-image: linear-gradient(135deg, #65FDF0 10%, #1D6FA3 100%);
+  background-image: linear-gradient(135deg, #65fdf0 10%, #1d6fa3 100%);
 }
 @mixin grad--blue {
-  background-image: linear-gradient(135deg, #6B73FF 10%, #000DFF 100%);
+  background-image: linear-gradient(135deg, #6b73ff 10%, #000dff 100%);
 }
 @mixin grad--bossanova {
-  background-image: linear-gradient(135deg, #FF7AF5 10%, #513162 100%);
+  background-image: linear-gradient(135deg, #ff7af5 10%, #513162 100%);
 }
 @mixin grad--malibu {
-  background-image: linear-gradient(135deg, #F0FF00 10%, #58CFFB 100%);
+  background-image: linear-gradient(135deg, #f0ff00 10%, #58cffb 100%);
 }
 @mixin grad--crusta {
-  background-image: linear-gradient(135deg, #FFE985 10%, #FA742B 100%);
+  background-image: linear-gradient(135deg, #ffe985 10%, #fa742b 100%);
 }
 @mixin grad--sundown {
-  background-image: linear-gradient(135deg, #FFA6B7 10%, #1E2AD2 100%);
+  background-image: linear-gradient(135deg, #ffa6b7 10%, #1e2ad2 100%);
 }
 @mixin grad--hibiscus {
-  background-image: linear-gradient(135deg, #FFAA85 10%, #B3315F 100%);
+  background-image: linear-gradient(135deg, #ffaa85 10%, #b3315f 100%);
 }
 @mixin grad--royal-blue {
-  background-image: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+  background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
 }
 @mixin grad--blush {
-  background-image: linear-gradient(135deg, #FF9D6C 10%, #BB4E75 100%);
+  background-image: linear-gradient(135deg, #ff9d6c 10%, #bb4e75 100%);
 }
 @mixin grad--pink-flamingo {
-  background-image: linear-gradient(135deg, #F6D242 10%, #FF52E5 100%);
+  background-image: linear-gradient(135deg, #f6d242 10%, #ff52e5 100%);
 }
 @mixin grad--aqua {
-  background-image: linear-gradient(135deg, #69FF97 10%, #00E4FF 100%);
+  background-image: linear-gradient(135deg, #69ff97 10%, #00e4ff 100%);
 }
 @mixin grad--lavender {
-  background-image: linear-gradient(135deg, #3B2667 10%, #BC78EC 100%);
+  background-image: linear-gradient(135deg, #3b2667 10%, #bc78ec 100%);
 }
 @mixin grad--lima {
-  background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+  background-image: linear-gradient(135deg, #70f570 10%, #49c628 100%);
 }
 @mixin grad--cyan {
-  background-image: linear-gradient(135deg, #3C8CE7 10%, #00EAFF 100%);
+  background-image: linear-gradient(135deg, #3c8ce7 10%, #00eaff 100%);
 }
 @mixin grad--mauve {
-  background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+  background-image: linear-gradient(135deg, #fab2ff 10%, #1904e5 100%);
 }
 @mixin grad--brilliant-rose {
-  background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+  background-image: linear-gradient(135deg, #81ffef 10%, #f067b4 100%);
 }
 @mixin grad--yellow {
-  background-image: linear-gradient(135deg, #FFA8A8 10%, #FCFF00 100%);
+  background-image: linear-gradient(135deg, #ffa8a8 10%, #fcff00 100%);
 }
 @mixin grad--mariner {
-  background-image: linear-gradient(135deg, #FFCF71 10%, #2376DD 100%);
+  background-image: linear-gradient(135deg, #ffcf71 10%, #2376dd 100%);
 }
 @mixin grad--medium-red-violet {
-  background-image: linear-gradient(135deg, #FF96F9 10%, #C32BAC 100%);
+  background-image: linear-gradient(135deg, #ff96f9 10%, #c32bac 100%);
 }
