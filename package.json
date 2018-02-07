@@ -14,7 +14,8 @@
   "scripts": {
     "css-build": "node-sass src/sass/main.scss src/css/main.css --include-paths ['node_modules/'] --source-map true --output-style expanded",
     "css-watch": "npm run css-build -- --watch",
-    "prefix": "postcss src/css/main.css --use autoprefixer -o build/css/main.min.css"
+    "prefix": "postcss src/css/main.css --use autoprefixer -o build/css/main.min.css",
+    "sass-test": "sass-lint -c .sass-lint.yml -v -q"
   },
   "author": "mdmengo",
   "license": "MIT",
