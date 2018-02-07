@@ -8,7 +8,8 @@
     "cssnano": "^3.10.0",
     "node-sass": "^4.5.3",
     "postcss": "^6.0.16",
-    "postcss-cli": "^4.1.1"
+    "postcss-cli": "^4.1.1",
+    "sass-lint": "^1.12.1"
   },
   "scripts": {
     "css-build": "node-sass src/sass/main.scss src/css/main.css --include-paths ['node_modules/'] --source-map true --output-style expanded",
