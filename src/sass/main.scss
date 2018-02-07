@@ -2,44 +2,43 @@
 
 // 1. Configuration and helpers
 @import
-  'abstracts/variables',
-  'abstracts/variables--space',
-  'abstracts/functions',
-  'abstracts/mixins',
-  'abstracts/gradient',
-  'abstracts/mq';
+'abstracts/variables',
+'abstracts/variables--space',
+'abstracts/functions',
+'abstracts/mixins',
+'abstracts/gradient',
+'abstracts/mq';
 
 // 2. Vendors
 @import
-  'node_modules/normalize.css/normalize',
-  'node_modules/bemify/sass/_bemify';
-
+'node_modules/normalize.css/normalize',
+'node_modules/bemify/sass/_bemify';
 
 // 3. Base stuff
 @import
-  'base/base',
-  'base/fonts',
-  'base/typography',
-  'base/helpers';
+'base/base',
+'base/fonts',
+'base/typography',
+'base/helpers';
 
 // 4. Layout-related sections
 @import
-  'layout/grid',
-  'layout/header',
-  'layout/footer';
+'layout/grid',
+'layout/header',
+'layout/footer';
 
 // 5. Components
 @import
-  'components/button';
+'components/button';
 
 // 6. Page-specific styles
 @import
-  'pages/home';
+'pages/home';
 
 // 7. Themes
 @import
-  'themes/default';
+'themes/default';
 
 // 8. Shame
 @import
-  'shame';
+'shame';
