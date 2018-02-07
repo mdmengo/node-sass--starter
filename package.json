@@ -12,10 +12,11 @@
     "sass-lint": "^1.12.1"
   },
   "scripts": {
-    "css-build": "node-sass src/sass/main.scss src/css/main.css --include-paths ['node_modules/'] --source-map true --output-style expanded",
+    "css-build": "node-sass src/sass/main.scss src/css/main.css --source-map true --output-style expanded",
     "css-watch": "npm run css-build -- --watch",
-    "prefix": "postcss src/css/main.css --use autoprefixer -o build/css/main.min.css",
-    "sass-test": "sass-lint -c .sass-lint.yml -v -q"
+    "prefix": "postcss src/css/main.css --use autoprefixer --no-map -o build/css/main.min.css",
+    "sass-test": "sass-lint -c .sass-lint.yml -v -q",
+    "deploy": "npm run sass-test && npm run css-build && npm run prefix"
   },
   "author": "mdmengo",
   "license": "MIT",
