@@ -66,12 +66,14 @@ rules:
     - size: 2
   leading-zero:
     - 1
-    - include: true
+    - include: false
   mixin-name-format:
     - 1
     - allow-leading-underscore: true
       convention: hyphenatedlowercase
-  mixins-before-declarations: 1
+  mixins-before-declarations:
+    - 1
+    - exclude: ['breakpoint', 'mq']
   nesting-depth:
     - 1
     - max-depth: 1
