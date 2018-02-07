@@ -20,7 +20,7 @@
   user-select: none;
   -webkit-appearance: none;
   cursor: pointer;
-  border: none;
+  border: 0;
 
   &-s {
     font-size: .75rem;
@@ -38,13 +38,12 @@
 
 @each $name, $value in $theme-colors {
   .btn--#{$name} {
-    background: $value;
     @include text-color($value);
+    background: $value;
 
     @include on-event {
-      background: darken($value, 10%);
       @include text-color($value);
-
+      background: darken($value, 10%);
       text-decoration: none;
       outline: 0;
     }
@@ -59,8 +58,8 @@
     color: $black;
 
     @include on-event {
-      background: $value;
       @include text-color($value);
+      background: $value;
       border-color: darken($value, 15%);
     }
   }
