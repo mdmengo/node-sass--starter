@@ -31,15 +31,15 @@
 
 
 // Retreive color Sass maps
-@function color($key: "blue") {
+@function color($key: 'blue') {
   @return map-get($colors, $key);
 }
 
-@function theme-color($key: "primary") {
+@function theme-color($key: 'primary') {
   @return map-get($theme-colors, $key);
 }
 
-@function grayscale($key: "100") {
+@function grayscale($key: '100') {
   @return map-get($grays, $key);
 }
 
@@ -53,15 +53,15 @@
 // }
 
 // Retrieve spacing value from map
-@function spacing($key: "0") {
+@function spacing($key: '0') {
   @return map-get($spacers, $key);
 }
 
-@function spacing($key: "0") {
+@function spacing($key: '0') {
   @if map-has-key($spacers, $key) {
     @return map-get($spacers, $key);
   } @else {
-      @warn "Spacer #{$key} wasn't found in $spacers";
+    @warn "Spacer #{$key} wasn't found in $spacers";
   }
 }
 
