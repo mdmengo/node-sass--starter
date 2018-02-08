@@ -6,7 +6,6 @@
     "autoprefixer": "^7.1.5",
     "bemify": "^0.1.2",
     "node-sass": "^4.5.3",
-    "postcss": "^6.0.17",
     "postcss-cli": "^4.1.1",
     "sass-lint": "^1.12.1"
   },
