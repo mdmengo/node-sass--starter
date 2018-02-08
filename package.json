@@ -5,15 +5,19 @@
   "devDependencies": {
     "autoprefixer": "^7.1.5",
     "bemify": "^0.1.2",
+    "cssnano": "^3.10.0",
     "node-sass": "^4.5.3",
     "postcss-cli": "^4.1.1",
+    "postcss-fixes": "^2.0.1",
+    "postcss-flexbugs-fixes": "^3.3.0",
+    "postcss-pxtorem": "^4.0.1",
     "sass-lint": "^1.12.1"
   },
   "scripts": {
     "css-deploy": "npm run css-build && npm run css-postcss",
     "css-build": "node-sass src/sass/main.scss src/css/main.css --source-map true --output-style expanded",
     "css-watch": "npm run css-build -- --watch",
-    "css-postcss": "postcss src/css/main.css --use autoprefixer --no-map -o build/css/main.min.css",
+    "css-postcss": "postcss src/css/main.css -c postcss.config.js -o build/css/main.min.css",
     "sass-lint": "sass-lint -c .sass-lint.yml -v -q"
   },
   "author": "mdmengo",
