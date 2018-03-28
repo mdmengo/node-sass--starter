@@ -5,6 +5,7 @@
   "devDependencies": {
     "autoprefixer": "^7.1.5",
     "bemify": "^0.1.2",
+    "browser-sync": "^2.23.6",
     "cssnano": "^3.10.0",
     "node-sass": "^4.5.3",
     "postcss-cli": "^4.1.1",
@@ -18,7 +19,8 @@
     "css-build": "node-sass src/sass/main.scss src/css/main.css --source-map true --output-style expanded",
     "css-watch": "npm run css-build -- --watch",
     "css-postcss": "postcss src/css/main.css -c postcss.config.js -o build/css/main.min.css",
-    "sass-lint": "sass-lint -c .sass-lint.yml -v -q"
+    "sass-lint": "sass-lint -c .sass-lint.yml -v -q",
+    "sync": "browser-sync start --directory --server --files \"src/**/*.css, src/**/*.html, src/**/*.js\" --https"
   },
   "author": "mdmengo",
   "license": "MIT",
