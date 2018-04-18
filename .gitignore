@@ -5,4 +5,8 @@ node_modules/
 build/
 src/css/
 
+# Main compiled js files
+src/js/main-compiled.js
+src/js/main-compiled.js.map
+
 package-lock.json
