@@ -27,6 +27,7 @@
     "sass-lint": "sass-lint -c .sass-lint.yml -v -q",
     "sync": "browser-sync start -c bs-config.js",
     "js-build": "babel src/js/main.js --out-file src/js/main-compiled.js --source-maps --watch",
+    "copy": "cp ./src/*.html ./build/ && cp -r ./src/img/ ./build/ && cp -r ./src/js/vendor/ ./build/js",
     "start": "npm run css-build && npm-run-all -p css-watch js-build sync",
     "build": "npm run css-deploy && node script.js"
   },
